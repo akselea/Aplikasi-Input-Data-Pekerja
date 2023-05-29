@@ -1,0 +1,2109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel6"/>
+      </Properties>
+    </Component>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar2">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu3">
+          <Properties>
+            <Property name="mnemonic" type="int" value="108"/>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenu3ActionPerformed"/>
+          </Events>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mKeluar">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Shift+1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Keluar Aplikasi"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mKeluarActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mLogout">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Shift+2"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="108"/>
+                <Property name="text" type="java.lang.String" value="Logout"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mLogoutActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu4">
+          <Properties>
+            <Property name="mnemonic" type="int" value="73"/>
+            <Property name="text" type="java.lang.String" value="Input"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mInputIDBaru">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Shift+3"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="105"/>
+                <Property name="text" type="java.lang.String" value="Input ID Baru"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mInputIDBaruActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mInputDataPencaker">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Shift+4"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="105"/>
+                <Property name="text" type="java.lang.String" value="Input Data Pencaker"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mInputDataPencakerActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu5">
+          <Properties>
+            <Property name="mnemonic" type="int" value="118"/>
+            <Property name="text" type="java.lang.String" value="View"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mViewDaftarID">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Shift+5"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="108"/>
+                <Property name="text" type="java.lang.String" value="Lihat Daftar ID"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mViewDaftarIDActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mViewPencaker">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Shift+6"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="108"/>
+                <Property name="text" type="java.lang.String" value="Lihat Data Pencaker"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mViewPencakerActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Form Utama"/>
+    <Property name="autoRequestFocus" type="boolean" value="false"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar2"/>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-68,0,0,4,86"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="panelInputID" alignment="0" pref="1110" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Component id="panelInputPencaker" alignment="0" pref="1110" max="32767" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
+              <Component id="panelViewPencaker" alignment="0" max="32767" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="3" groupAlignment="0" attributes="0">
+              <Component id="panelViewID" alignment="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="panelInputID" alignment="0" pref="679" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Component id="panelInputPencaker" alignment="0" pref="679" max="32767" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
+              <Component id="panelViewPencaker" alignment="0" max="32767" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="3" groupAlignment="0" attributes="0">
+              <Component id="panelViewID" alignment="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="panelInputID">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[460, 310]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btnInputID" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                      <Component id="btnResetID" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="cbHakAkses" min="-2" pref="176" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="btnTutupID" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="txtID" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="txtPassword" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtUsername" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtNama" alignment="0" min="-2" pref="293" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="353" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="197" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtUsername" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPassword" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtNama" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbHakAkses" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnInputID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnResetID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnTutupID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Form Input ID Baru"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Username"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Password"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nama"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Hak Akses"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtUsername">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPassword">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNama">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnInputID">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Input"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnInputIDActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnResetID">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Reset"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnResetIDActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbHakAkses">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="--- Hak Akses ---"/>
+                <StringItem index="1" value="Admin"/>
+                <StringItem index="2" value="User"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnTutupID">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Tutup"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTutupIDActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtID">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="panelInputPencaker">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[460, 310]"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="HalamanUtamaAdmin_panelInputPencaker"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="205" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="jLabel15" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel14" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel9" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel8" alignment="0" min="-2" pref="109" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtNoKTP" max="32767" attributes="0"/>
+                                      <Component id="txtNamaPencaker" max="32767" attributes="0"/>
+                                      <Component id="txtTempatLahir" min="-2" pref="174" max="-2" attributes="0"/>
+                                      <Component id="cbAgama" max="32767" attributes="0"/>
+                                      <Component id="cbKewarganegaraan" max="32767" attributes="0"/>
+                                      <Component id="cbStatus" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="cbJenisKelamin" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="jLabel12" alignment="0" min="-2" pref="109" max="-2" attributes="0"/>
+                              <Component id="jLabel10" alignment="0" min="-2" pref="109" max="-2" attributes="0"/>
+                              <Component id="jLabel13" alignment="0" min="-2" pref="109" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel11" min="-2" pref="109" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="dtTglLahir" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="btnInputPencaker" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="btnResetPencaker" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jLabel17" max="32767" attributes="0"/>
+                              <Component id="jLabel16" max="32767" attributes="0"/>
+                              <Component id="jLabel18" max="32767" attributes="0"/>
+                              <Component id="jLabel20" max="32767" attributes="0"/>
+                              <Component id="jLabel19" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel21" max="32767" attributes="0"/>
+                              <Component id="jLabel22" min="-2" pref="164" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="btnClosePencaker" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="txtIDPencaker" min="-2" pref="90" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="cbPendidikan" max="32767" attributes="0"/>
+                              <Component id="txtNamaSekolah" max="32767" attributes="0"/>
+                              <Component id="txtJurusan" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtTahunLulus" max="32767" attributes="0"/>
+                              <Component id="txtAlamat" max="32767" attributes="0"/>
+                              <Component id="cbKecaKelu" max="32767" attributes="0"/>
+                              <Component id="txtNoHp" alignment="0" min="-2" pref="279" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="138" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="138" max="-2" attributes="0"/>
+                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtNoKTP" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="txtNamaPencaker" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                  <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtTempatLahir" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel19" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="dtTglLahir" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbJenisKelamin" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbAgama" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbKewarganegaraan" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="cbPendidikan" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="txtNamaSekolah" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="txtJurusan" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Component id="txtTahunLulus" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="txtAlamat" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="cbKecaKelu" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="txtNoHp" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnInputPencaker" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnResetPencaker" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnClosePencaker" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtIDPencaker" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="196" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Form Input Data Pencari Kerja"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNoKTP">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNoKTPActionPerformed"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNoKTPKeyPressed"/>
+            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNoKTPKeyReleased"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNoKTPKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="No. KTP"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nama"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNamaPencaker">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Tempat Lahir"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="HalamanUtamaAdmin_jLabel10"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Tanggal Lahir"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtTempatLahir">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtTempatLahirActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Jenis Kelamin"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbJenisKelamin">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="--- Pilih ---"/>
+                <StringItem index="1" value="Pria"/>
+                <StringItem index="2" value="Wanita"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Agama"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbAgama">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="8">
+                <StringItem index="0" value="--- Pilih ---"/>
+                <StringItem index="1" value="Islam"/>
+                <StringItem index="2" value="Kristen-Protestan"/>
+                <StringItem index="3" value="Kristen-Katolik"/>
+                <StringItem index="4" value="Kristen"/>
+                <StringItem index="5" value="Hindu"/>
+                <StringItem index="6" value="Budha"/>
+                <StringItem index="7" value="Lainnya"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel14">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Kewarganegaraan"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbKewarganegaraan">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="--- Pilih ---"/>
+                <StringItem index="1" value="WNI"/>
+                <StringItem index="2" value="WNA"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel15">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Status"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbStatus">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="--- Pilih ---"/>
+                <StringItem index="1" value="Belum Kawin"/>
+                <StringItem index="2" value="Kawin"/>
+                <StringItem index="3" value="Duda"/>
+                <StringItem index="4" value="Janda"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel16">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Pendidikan Terakhir"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbPendidikan">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="12">
+                <StringItem index="0" value="--- Pilih ---"/>
+                <StringItem index="1" value="SD"/>
+                <StringItem index="2" value="SMP"/>
+                <StringItem index="3" value="SMA"/>
+                <StringItem index="4" value="SMK"/>
+                <StringItem index="5" value="D1"/>
+                <StringItem index="6" value="D2"/>
+                <StringItem index="7" value="D3"/>
+                <StringItem index="8" value="D4"/>
+                <StringItem index="9" value="S1"/>
+                <StringItem index="10" value="S2"/>
+                <StringItem index="11" value="S3"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel17">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nama Sekolah / Universitas"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNamaSekolah">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel18">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Jurusan"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtJurusan">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel19">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Tahun Lulus"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtTahunLulus">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtTahunLulusKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel20">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Alamat"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtAlamat">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel21">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Kecamatan / Kelurahan"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbKecaKelu">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="154">
+                <StringItem index="0" value="--- Pilih ---"/>
+                <StringItem index="1" value="Andir / Campaka / 40184"/>
+                <StringItem index="2" value="Andir / Ciroyom / 40182"/>
+                <StringItem index="3" value="Andir / Dungus Cariang / 40183"/>
+                <StringItem index="4" value="Andir / Garuda / 40184"/>
+                <StringItem index="5" value="Andir / Kebon Jeruk / 40181"/>
+                <StringItem index="6" value="Andir / Maleber / 40184"/>
+                <StringItem index="7" value="Antapani / Antapani Kidul / 40291"/>
+                <StringItem index="8" value="Antapani / Antapani Kulon / 40291"/>
+                <StringItem index="9" value="Antapani / Antapani Tengah / 40291"/>
+                <StringItem index="10" value="Antapani / Antapani Wetan / 40291"/>
+                <StringItem index="11" value="Arcamanik / Cisaranten Endah / 40293"/>
+                <StringItem index="12" value="Arcamanik / Cisaranten Kulon / 40293"/>
+                <StringItem index="13" value="Arcamanik / Cisaranten Bina Harapan / 40294"/>
+                <StringItem index="14" value="Arcamanik / Sindang Jaya / 40293"/>
+                <StringItem index="15" value="Arcamanik / Sukamiskin / 40293"/>
+                <StringItem index="16" value="Astana Anyar / Cibadak / 40241"/>
+                <StringItem index="17" value="Astana Anyar / Karanganyar / 40241"/>
+                <StringItem index="18" value="Astana Anyar / Karasak / 40243"/>
+                <StringItem index="19" value="Astana Anyar / Nyengseret / 40242"/>
+                <StringItem index="20" value="Astana Anyar / Panjunan / 40242"/>
+                <StringItem index="21" value="Astana Anyar / Pelindung Hewan / 40243"/>
+                <StringItem index="22" value="Babakan Ciparay / Babakan / 40222"/>
+                <StringItem index="23" value="Babakan Ciparay / Babakan Ciparay / 40223"/>
+                <StringItem index="24" value="Babakan Ciparay / Cirangrang / 40227"/>
+                <StringItem index="25" value="Babakan Ciparay / Margahayu Utara / 40224"/>
+                <StringItem index="26" value="Babakan Ciparay / Margasuka / 40225"/>
+                <StringItem index="27" value="Babakan Ciparay / Sukahaji / 40221"/>
+                <StringItem index="28" value="Bandung Kidul / Mengger / 40267"/>
+                <StringItem index="29" value="Bandung Kidul / Batununggal / 40266"/>
+                <StringItem index="30" value="Bandung Kidul / Kujangsari / 40287"/>
+                <StringItem index="31" value="Bandung Kidul / Wates / 40256"/>
+                <StringItem index="32" value="Bandung Kulon / Caringin / 40212"/>
+                <StringItem index="33" value="Bandung Kulon / Cibuntu / 40212"/>
+                <StringItem index="34" value="Bandung Kulon / Cigondewah Kaler / 40214"/>
+                <StringItem index="35" value="Bandung Kulon / Cigondewah Kidul / 40214"/>
+                <StringItem index="36" value="Bandung Kulon / Cigondewah Rahayu / 40215"/>
+                <StringItem index="37" value="Bandung Kulon / Cijerah / 40213"/>
+                <StringItem index="38" value="Bandung Kulon / Gempolsari / 40215"/>
+                <StringItem index="39" value="Bandung Kulon / Warung Muncang / 40211"/>
+                <StringItem index="40" value="Bandung Wetan / Cihapit / 40114"/>
+                <StringItem index="41" value="Bandung Wetan / Citarum / 40115"/>
+                <StringItem index="42" value="Bandung Wetan / Tamansari / 40116"/>
+                <StringItem index="43" value="Batununggal / Binong / 40275"/>
+                <StringItem index="44" value="Batununggal / Cibangkong / 40273"/>
+                <StringItem index="45" value="Batununggal / Gumuruh / 40275"/>
+                <StringItem index="46" value="Batununggal / Kacapiring / 40271"/>
+                <StringItem index="47" value="Batununggal / Kebon Gedang / 40274"/>
+                <StringItem index="48" value="Batununggal / Kebonwaru / 40272"/>
+                <StringItem index="49" value="Batununggal / Maleer / 40274"/>
+                <StringItem index="50" value="Batununggal / Samoja / 40273"/>
+                <StringItem index="51" value="Bojongloa Kaler / Babakan Asih / 40232"/>
+                <StringItem index="52" value="Bojongloa Kaler / Babakan Tarogong / 40232"/>
+                <StringItem index="53" value="Bojongloa Kaler / Jamika / 40231"/>
+                <StringItem index="54" value="Bojongloa Kaler / Kopo / 40233"/>
+                <StringItem index="55" value="Bojongloa Kaler / Suka Asih / 40231"/>
+                <StringItem index="56" value="Bojongloa Kidul / Cibaduyut / 40236"/>
+                <StringItem index="57" value="Bojongloa Kidul / Cibaduyut Kidul / 40239"/>
+                <StringItem index="58" value="Bojongloa Kidul / Cibaduyut Wetan / 40238"/>
+                <StringItem index="59" value="Bojongloa Kidul / Kebon Lega / 40235"/>
+                <StringItem index="60" value="Bojongloa Kidul / Mekarwangi / 40237"/>
+                <StringItem index="61" value="Bojongloa Kidul / Situsaeur / 40234"/>
+                <StringItem index="62" value="Buahbatu  / Cijawura / 40287"/>
+                <StringItem index="63" value="Buahbatu  / Jatisari / 40286"/>
+                <StringItem index="64" value="Buahbatu  / Margasari / 40286"/>
+                <StringItem index="65" value="Buahbatu  / Sekejati / 40286"/>
+                <StringItem index="66" value="Cibeunying Kaler / Cigadung / 40191"/>
+                <StringItem index="67" value="Cibeunying Kaler / Cihaur Geulis / 40122"/>
+                <StringItem index="68" value="Cibeunying Kaler / Neglasari / 40124"/>
+                <StringItem index="69" value="Cibeunying Kaler / Sukaluyu / 40123"/>
+                <StringItem index="70" value="Cibeunying Kidul / Cicadas / 40121"/>
+                <StringItem index="71" value="Cibeunying Kidul / Cikutra / 40124"/>
+                <StringItem index="72" value="Cibeunying Kidul / Padasuka / 40125"/>
+                <StringItem index="73" value="Cibeunying Kidul / Pasirlayung / 40192"/>
+                <StringItem index="74" value="Cibeunying Kidul / Sukamaju / 40121"/>
+                <StringItem index="75" value="Cibeunying Kidul / Sukapada / 40125"/>
+                <StringItem index="76" value="Cibiru / Cipadung / 40614"/>
+                <StringItem index="77" value="Cibiru / Cisurupan / 40614"/>
+                <StringItem index="78" value="Cibiru / Palasari / 40615"/>
+                <StringItem index="79" value="Cibiru / Pasirbiru / 40615"/>
+                <StringItem index="80" value="Cicendo / Arjuna / 40172"/>
+                <StringItem index="81" value="Cicendo / Husein Sastranegara / 40174"/>
+                <StringItem index="82" value="Cicendo / Pajajaran / 40173"/>
+                <StringItem index="83" value="Cicendo / Pamoyanan / 40173"/>
+                <StringItem index="84" value="Cicendo / Pasir Kaliki / 40171"/>
+                <StringItem index="85" value="Cicendo / Sukaraja / 40175"/>
+                <StringItem index="86" value="Cidadap / Ciumbuleuit / 40142"/>
+                <StringItem index="87" value="Cidadap / Hegarmanah / 40141"/>
+                <StringItem index="88" value="Cidadap / Ledeng / 40143"/>
+                <StringItem index="89" value="Cinambo / Babakan Penghulu / 40294"/>
+                <StringItem index="90" value="Cinambo / Cisaranten Wetan / 40294"/>
+                <StringItem index="91" value="Cinambo / Pakemitan / 40294"/>
+                <StringItem index="92" value="Cinambo / Sukamulya / 40294"/>
+                <StringItem index="93" value="Coblong / Cipaganti / 40131"/>
+                <StringItem index="94" value="Coblong / Dago / 40135"/>
+                <StringItem index="95" value="Coblong / Lebak Gede / 40132"/>
+                <StringItem index="96" value="Coblong / Lebak Siliwangi / 40132"/>
+                <StringItem index="97" value="Coblong / Sadang Serang / 40133"/>
+                <StringItem index="98" value="Coblong / Sekeloa / 40134"/>
+                <StringItem index="99" value="Gedebage / Cimincrang  / 40295"/>
+                <StringItem index="100" value="Gedebage / Cisaranten Kidul / 40295"/>
+                <StringItem index="101" value="Gedebage / Rancabolang / 40295"/>
+                <StringItem index="102" value="Gedebage / Rancanumpang / 40295"/>
+                <StringItem index="103" value="Kiaracondong / Babakan Sari / 40283"/>
+                <StringItem index="104" value="Kiaracondong / Babakan Surabaya / 40281"/>
+                <StringItem index="105" value="Kiaracondong / Cicaheum / 40282"/>
+                <StringItem index="106" value="Kiaracondong / Kebon Jayanti / 40281"/>
+                <StringItem index="107" value="Kiaracondong / Kebon Kangkung / 40284"/>
+                <StringItem index="108" value="Kiaracondong / Sukapura / 40285"/>
+                <StringItem index="109" value="Lengkong / Burangrang / 40262"/>
+                <StringItem index="110" value="Lengkong / Cijagra / 40265"/>
+                <StringItem index="111" value="Lengkong / Cikawao / 40261"/>
+                <StringItem index="112" value="Lengkong / Lingkar Selatan / 40263"/>
+                <StringItem index="113" value="Lengkong / Malabar / 40262"/>
+                <StringItem index="114" value="Lengkong / Paledang / 40261"/>
+                <StringItem index="115" value="Lengkong / Turangga / 40264"/>
+                <StringItem index="116" value="Mandala Jati / Jatihandap / 40195"/>
+                <StringItem index="117" value="Mandala Jati / Karang Pamulang / 40195"/>
+                <StringItem index="118" value="Mandala Jati / Pasir Impun / 40195"/>
+                <StringItem index="119" value="Mandala Jati / Sindang Jaya / 40195"/>
+                <StringItem index="120" value="Panyileukan / Cipadung Kidul / 40614"/>
+                <StringItem index="121" value="Panyileukan / Cipadung Kulon / 40614"/>
+                <StringItem index="122" value="Panyileukan / Cipadung Wetan / 40614"/>
+                <StringItem index="123" value="Panyileukan / Mekarmulya / 40613"/>
+                <StringItem index="124" value="Rancasari / Cipamokolan / 40292"/>
+                <StringItem index="125" value="Rancasari / Derwati / 40292"/>
+                <StringItem index="126" value="Rancasari / Manjahlega / 40295"/>
+                <StringItem index="127" value="Rancasari / Mekar Jaya / 40292"/>
+                <StringItem index="128" value="Regol / Ancol / 40254"/>
+                <StringItem index="129" value="Regol / Balong Gede / 40251"/>
+                <StringItem index="130" value="Regol / Ciateul / 40252"/>
+                <StringItem index="131" value="Regol / Cigereleng / 40253"/>
+                <StringItem index="132" value="Regol / Ciseureuh / 40255"/>
+                <StringItem index="133" value="Regol / Pasirluyu / 40254"/>
+                <StringItem index="134" value="Regol / Pungkur / 40252"/>
+                <StringItem index="135" value="Sukajadi / Cipedes / 40162"/>
+                <StringItem index="136" value="Sukajadi / Pasteur / 40161"/>
+                <StringItem index="137" value="Sukajadi / Sukabungah / 40162"/>
+                <StringItem index="138" value="Sukajadi / Sukagalih / 40163"/>
+                <StringItem index="139" value="Sukajadi / Sukawarna / 40164"/>
+                <StringItem index="140" value="Sukasari / Geger Kalong / 40153"/>
+                <StringItem index="141" value="Sukasari / Isola / 40154"/>
+                <StringItem index="142" value="Sukasari / Sarijadi / 40151"/>
+                <StringItem index="143" value="Sukasari / Sukarasa / 40152"/>
+                <StringItem index="144" value="Sumur Bandung / Babakan Ciamis / 40117"/>
+                <StringItem index="145" value="Sumur Bandung / Braga / 40111"/>
+                <StringItem index="146" value="Sumur Bandung / Kebon Pisang / 40112"/>
+                <StringItem index="147" value="Sumur Bandung / Merdeka / 40113"/>
+                <StringItem index="148" value="Ujung Berung / Cigending / 40611"/>
+                <StringItem index="149" value="Ujung Berung / Pasanggrahan / 40617"/>
+                <StringItem index="150" value="Ujung Berung / Pasir Endah / 40619"/>
+                <StringItem index="151" value="Ujung Berung / Pasirjati / 40616"/>
+                <StringItem index="152" value="Ujung Berung / Pasirwangi / 40618"/>
+                <StringItem index="153" value="Ujung Berung / Ujung Berung / 40611"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel22">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="No. Telfon / Handphone"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNoHp">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Events>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNoHpKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnInputPencaker">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Input"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnInputPencakerActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnResetPencaker">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Reset"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnResetPencakerActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnClosePencaker">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Close"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnClosePencakerActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtIDPencaker">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="dtTglLahir">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="panelViewPencaker">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel56" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="btnUpdatePencakerView" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" pref="32" max="32767" attributes="0"/>
+                                  <Component id="btnDeletePencakerView" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnCancelPencakerView" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="btnClosePencakerView" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtIDPencakerView" min="-2" pref="90" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="jLabel52" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="jLabel51" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="jLabel59" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="jLabel58" alignment="0" min="-2" pref="109" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="cbKewarganegaraanView" min="-2" pref="130" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                                                  <Component id="cbStatusView" min="-2" pref="130" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <EmptySpace pref="18" max="32767" attributes="0"/>
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Component id="txtNamaPencakerView" alignment="1" min="-2" pref="255" max="-2" attributes="0"/>
+                                                      <Component id="txtNoKTPView" alignment="1" min="-2" pref="255" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel45" min="-2" pref="109" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="txtTempatLahirView" min="-2" pref="255" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel53" min="-2" pref="164" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="cbPendidikanView" min="-2" pref="200" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel50" min="-2" pref="109" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="cbAgamaView" min="-2" pref="130" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                      <Component id="jLabel44" max="32767" attributes="0"/>
+                                                      <Component id="jLabel54" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="jLabel55" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="jLabel57" alignment="0" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="jLabel46" max="32767" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="txtTahunLulusView" max="32767" attributes="0"/>
+                                              <Component id="txtNamaSekolahView" max="32767" attributes="0"/>
+                                              <Component id="txtJurusanView" max="32767" attributes="0"/>
+                                              <Component id="txtAlamatView" max="32767" attributes="0"/>
+                                              <Component id="cbKecaKeluView" alignment="0" pref="200" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel48" min="-2" pref="164" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="txtNoHpView" min="-2" pref="200" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel47" min="-2" pref="109" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="dtTglLahirView" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel49" min="-2" pref="109" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="cbJenisKelaminView" min="-2" pref="130" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jScrollPane2" min="-2" pref="575" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel56" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtNoKTPView" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel58" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel59" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtNamaPencakerView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel45" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtTempatLahirView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabel47" min="-2" max="-2" attributes="0"/>
+                              <Component id="dtTglLahirView" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel49" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbJenisKelaminView" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel50" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbAgamaView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel51" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbKewarganegaraanView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel52" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbStatusView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel53" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbPendidikanView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel54" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtNamaSekolahView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel55" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtJurusanView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel57" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtTahunLulusView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel44" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtAlamatView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel46" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbKecaKeluView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel48" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtNoHpView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnDeletePencakerView" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnCancelPencakerView" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnClosePencakerView" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtIDPencakerView" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnUpdatePencakerView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jScrollPane2" min="-2" pref="501" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="127" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="TblDataPencaker">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TblDataPencakerMouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel44">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Alamat"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtAlamatView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel45">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Tempat Lahir"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="HalamanUtamaAdmin_jLabel10"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel46">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Kecamatan / Kelurahan"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel47">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Tanggal Lahir"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbKecaKeluView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="154">
+                <StringItem index="0" value="--- Pilih ---"/>
+                <StringItem index="1" value="Andir / Campaka / 40184"/>
+                <StringItem index="2" value="Andir / Ciroyom / 40182"/>
+                <StringItem index="3" value="Andir / Dungus Cariang / 40183"/>
+                <StringItem index="4" value="Andir / Garuda / 40184"/>
+                <StringItem index="5" value="Andir / Kebon Jeruk / 40181"/>
+                <StringItem index="6" value="Andir / Maleber / 40184"/>
+                <StringItem index="7" value="Antapani / Antapani Kidul / 40291"/>
+                <StringItem index="8" value="Antapani / Antapani Kulon / 40291"/>
+                <StringItem index="9" value="Antapani / Antapani Tengah / 40291"/>
+                <StringItem index="10" value="Antapani / Antapani Wetan / 40291"/>
+                <StringItem index="11" value="Arcamanik / Cisaranten Endah / 40293"/>
+                <StringItem index="12" value="Arcamanik / Cisaranten Kulon / 40293"/>
+                <StringItem index="13" value="Arcamanik / Cisaranten Bina Harapan / 40294"/>
+                <StringItem index="14" value="Arcamanik / Sindang Jaya / 40293"/>
+                <StringItem index="15" value="Arcamanik / Sukamiskin / 40293"/>
+                <StringItem index="16" value="Astana Anyar / Cibadak / 40241"/>
+                <StringItem index="17" value="Astana Anyar / Karanganyar / 40241"/>
+                <StringItem index="18" value="Astana Anyar / Karasak / 40243"/>
+                <StringItem index="19" value="Astana Anyar / Nyengseret / 40242"/>
+                <StringItem index="20" value="Astana Anyar / Panjunan / 40242"/>
+                <StringItem index="21" value="Astana Anyar / Pelindung Hewan / 40243"/>
+                <StringItem index="22" value="Babakan Ciparay / Babakan / 40222"/>
+                <StringItem index="23" value="Babakan Ciparay / Babakan Ciparay / 40223"/>
+                <StringItem index="24" value="Babakan Ciparay / Cirangrang / 40227"/>
+                <StringItem index="25" value="Babakan Ciparay / Margahayu Utara / 40224"/>
+                <StringItem index="26" value="Babakan Ciparay / Margasuka / 40225"/>
+                <StringItem index="27" value="Babakan Ciparay / Sukahaji / 40221"/>
+                <StringItem index="28" value="Bandung Kidul / Mengger / 40267"/>
+                <StringItem index="29" value="Bandung Kidul / Batununggal / 40266"/>
+                <StringItem index="30" value="Bandung Kidul / Kujangsari / 40287"/>
+                <StringItem index="31" value="Bandung Kidul / Wates / 40256"/>
+                <StringItem index="32" value="Bandung Kulon / Caringin / 40212"/>
+                <StringItem index="33" value="Bandung Kulon / Cibuntu / 40212"/>
+                <StringItem index="34" value="Bandung Kulon / Cigondewah Kaler / 40214"/>
+                <StringItem index="35" value="Bandung Kulon / Cigondewah Kidul / 40214"/>
+                <StringItem index="36" value="Bandung Kulon / Cigondewah Rahayu / 40215"/>
+                <StringItem index="37" value="Bandung Kulon / Cijerah / 40213"/>
+                <StringItem index="38" value="Bandung Kulon / Gempolsari / 40215"/>
+                <StringItem index="39" value="Bandung Kulon / Warung Muncang / 40211"/>
+                <StringItem index="40" value="Bandung Wetan / Cihapit / 40114"/>
+                <StringItem index="41" value="Bandung Wetan / Citarum / 40115"/>
+                <StringItem index="42" value="Bandung Wetan / Tamansari / 40116"/>
+                <StringItem index="43" value="Batununggal / Binong / 40275"/>
+                <StringItem index="44" value="Batununggal / Cibangkong / 40273"/>
+                <StringItem index="45" value="Batununggal / Gumuruh / 40275"/>
+                <StringItem index="46" value="Batununggal / Kacapiring / 40271"/>
+                <StringItem index="47" value="Batununggal / Kebon Gedang / 40274"/>
+                <StringItem index="48" value="Batununggal / Kebonwaru / 40272"/>
+                <StringItem index="49" value="Batununggal / Maleer / 40274"/>
+                <StringItem index="50" value="Batununggal / Samoja / 40273"/>
+                <StringItem index="51" value="Bojongloa Kaler / Babakan Asih / 40232"/>
+                <StringItem index="52" value="Bojongloa Kaler / Babakan Tarogong / 40232"/>
+                <StringItem index="53" value="Bojongloa Kaler / Jamika / 40231"/>
+                <StringItem index="54" value="Bojongloa Kaler / Kopo / 40233"/>
+                <StringItem index="55" value="Bojongloa Kaler / Suka Asih / 40231"/>
+                <StringItem index="56" value="Bojongloa Kidul / Cibaduyut / 40236"/>
+                <StringItem index="57" value="Bojongloa Kidul / Cibaduyut Kidul / 40239"/>
+                <StringItem index="58" value="Bojongloa Kidul / Cibaduyut Wetan / 40238"/>
+                <StringItem index="59" value="Bojongloa Kidul / Kebon Lega / 40235"/>
+                <StringItem index="60" value="Bojongloa Kidul / Mekarwangi / 40237"/>
+                <StringItem index="61" value="Bojongloa Kidul / Situsaeur / 40234"/>
+                <StringItem index="62" value="Buahbatu  / Cijawura / 40287"/>
+                <StringItem index="63" value="Buahbatu  / Jatisari / 40286"/>
+                <StringItem index="64" value="Buahbatu  / Margasari / 40286"/>
+                <StringItem index="65" value="Buahbatu  / Sekejati / 40286"/>
+                <StringItem index="66" value="Cibeunying Kaler / Cigadung / 40191"/>
+                <StringItem index="67" value="Cibeunying Kaler / Cihaur Geulis / 40122"/>
+                <StringItem index="68" value="Cibeunying Kaler / Neglasari / 40124"/>
+                <StringItem index="69" value="Cibeunying Kaler / Sukaluyu / 40123"/>
+                <StringItem index="70" value="Cibeunying Kidul / Cicadas / 40121"/>
+                <StringItem index="71" value="Cibeunying Kidul / Cikutra / 40124"/>
+                <StringItem index="72" value="Cibeunying Kidul / Padasuka / 40125"/>
+                <StringItem index="73" value="Cibeunying Kidul / Pasirlayung / 40192"/>
+                <StringItem index="74" value="Cibeunying Kidul / Sukamaju / 40121"/>
+                <StringItem index="75" value="Cibeunying Kidul / Sukapada / 40125"/>
+                <StringItem index="76" value="Cibiru / Cipadung / 40614"/>
+                <StringItem index="77" value="Cibiru / Cisurupan / 40614"/>
+                <StringItem index="78" value="Cibiru / Palasari / 40615"/>
+                <StringItem index="79" value="Cibiru / Pasirbiru / 40615"/>
+                <StringItem index="80" value="Cicendo / Arjuna / 40172"/>
+                <StringItem index="81" value="Cicendo / Husein Sastranegara / 40174"/>
+                <StringItem index="82" value="Cicendo / Pajajaran / 40173"/>
+                <StringItem index="83" value="Cicendo / Pamoyanan / 40173"/>
+                <StringItem index="84" value="Cicendo / Pasir Kaliki / 40171"/>
+                <StringItem index="85" value="Cicendo / Sukaraja / 40175"/>
+                <StringItem index="86" value="Cidadap / Ciumbuleuit / 40142"/>
+                <StringItem index="87" value="Cidadap / Hegarmanah / 40141"/>
+                <StringItem index="88" value="Cidadap / Ledeng / 40143"/>
+                <StringItem index="89" value="Cinambo / Babakan Penghulu / 40294"/>
+                <StringItem index="90" value="Cinambo / Cisaranten Wetan / 40294"/>
+                <StringItem index="91" value="Cinambo / Pakemitan / 40294"/>
+                <StringItem index="92" value="Cinambo / Sukamulya / 40294"/>
+                <StringItem index="93" value="Coblong / Cipaganti / 40131"/>
+                <StringItem index="94" value="Coblong / Dago / 40135"/>
+                <StringItem index="95" value="Coblong / Lebak Gede / 40132"/>
+                <StringItem index="96" value="Coblong / Lebak Siliwangi / 40132"/>
+                <StringItem index="97" value="Coblong / Sadang Serang / 40133"/>
+                <StringItem index="98" value="Coblong / Sekeloa / 40134"/>
+                <StringItem index="99" value="Gedebage / Cimincrang  / 40295"/>
+                <StringItem index="100" value="Gedebage / Cisaranten Kidul / 40295"/>
+                <StringItem index="101" value="Gedebage / Rancabolang / 40295"/>
+                <StringItem index="102" value="Gedebage / Rancanumpang / 40295"/>
+                <StringItem index="103" value="Kiaracondong / Babakan Sari / 40283"/>
+                <StringItem index="104" value="Kiaracondong / Babakan Surabaya / 40281"/>
+                <StringItem index="105" value="Kiaracondong / Cicaheum / 40282"/>
+                <StringItem index="106" value="Kiaracondong / Kebon Jayanti / 40281"/>
+                <StringItem index="107" value="Kiaracondong / Kebon Kangkung / 40284"/>
+                <StringItem index="108" value="Kiaracondong / Sukapura / 40285"/>
+                <StringItem index="109" value="Lengkong / Burangrang / 40262"/>
+                <StringItem index="110" value="Lengkong / Cijagra / 40265"/>
+                <StringItem index="111" value="Lengkong / Cikawao / 40261"/>
+                <StringItem index="112" value="Lengkong / Lingkar Selatan / 40263"/>
+                <StringItem index="113" value="Lengkong / Malabar / 40262"/>
+                <StringItem index="114" value="Lengkong / Paledang / 40261"/>
+                <StringItem index="115" value="Lengkong / Turangga / 40264"/>
+                <StringItem index="116" value="Mandala Jati / Jatihandap / 40195"/>
+                <StringItem index="117" value="Mandala Jati / Karang Pamulang / 40195"/>
+                <StringItem index="118" value="Mandala Jati / Pasir Impun / 40195"/>
+                <StringItem index="119" value="Mandala Jati / Sindang Jaya / 40195"/>
+                <StringItem index="120" value="Panyileukan / Cipadung Kidul / 40614"/>
+                <StringItem index="121" value="Panyileukan / Cipadung Kulon / 40614"/>
+                <StringItem index="122" value="Panyileukan / Cipadung Wetan / 40614"/>
+                <StringItem index="123" value="Panyileukan / Mekarmulya / 40613"/>
+                <StringItem index="124" value="Rancasari / Cipamokolan / 40292"/>
+                <StringItem index="125" value="Rancasari / Derwati / 40292"/>
+                <StringItem index="126" value="Rancasari / Manjahlega / 40295"/>
+                <StringItem index="127" value="Rancasari / Mekar Jaya / 40292"/>
+                <StringItem index="128" value="Regol / Ancol / 40254"/>
+                <StringItem index="129" value="Regol / Balong Gede / 40251"/>
+                <StringItem index="130" value="Regol / Ciateul / 40252"/>
+                <StringItem index="131" value="Regol / Cigereleng / 40253"/>
+                <StringItem index="132" value="Regol / Ciseureuh / 40255"/>
+                <StringItem index="133" value="Regol / Pasirluyu / 40254"/>
+                <StringItem index="134" value="Regol / Pungkur / 40252"/>
+                <StringItem index="135" value="Sukajadi / Cipedes / 40162"/>
+                <StringItem index="136" value="Sukajadi / Pasteur / 40161"/>
+                <StringItem index="137" value="Sukajadi / Sukabungah / 40162"/>
+                <StringItem index="138" value="Sukajadi / Sukagalih / 40163"/>
+                <StringItem index="139" value="Sukajadi / Sukawarna / 40164"/>
+                <StringItem index="140" value="Sukasari / Geger Kalong / 40153"/>
+                <StringItem index="141" value="Sukasari / Isola / 40154"/>
+                <StringItem index="142" value="Sukasari / Sarijadi / 40151"/>
+                <StringItem index="143" value="Sukasari / Sukarasa / 40152"/>
+                <StringItem index="144" value="Sumur Bandung / Babakan Ciamis / 40117"/>
+                <StringItem index="145" value="Sumur Bandung / Braga / 40111"/>
+                <StringItem index="146" value="Sumur Bandung / Kebon Pisang / 40112"/>
+                <StringItem index="147" value="Sumur Bandung / Merdeka / 40113"/>
+                <StringItem index="148" value="Ujung Berung / Cigending / 40611"/>
+                <StringItem index="149" value="Ujung Berung / Pasanggrahan / 40617"/>
+                <StringItem index="150" value="Ujung Berung / Pasir Endah / 40619"/>
+                <StringItem index="151" value="Ujung Berung / Pasirjati / 40616"/>
+                <StringItem index="152" value="Ujung Berung / Pasirwangi / 40618"/>
+                <StringItem index="153" value="Ujung Berung / Ujung Berung / 40611"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel48">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="No. Telfon / Handphone"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtTempatLahirView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtTempatLahirViewActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNoHpView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Events>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNoHpViewKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel49">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Jenis Kelamin"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnDeletePencakerView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Delete"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDeletePencakerViewActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbJenisKelaminView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="--- Pilih ---"/>
+                <StringItem index="1" value="Pria"/>
+                <StringItem index="2" value="Wanita"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCancelPencakerView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cancel"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCancelPencakerViewActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel50">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Agama"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnClosePencakerView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Close"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnClosePencakerViewActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbAgamaView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="8">
+                <StringItem index="0" value="--- Pilih ---"/>
+                <StringItem index="1" value="Islam"/>
+                <StringItem index="2" value="Kristen-Protestan"/>
+                <StringItem index="3" value="Kristen-Katolik"/>
+                <StringItem index="4" value="Kristen"/>
+                <StringItem index="5" value="Hindu"/>
+                <StringItem index="6" value="Budha"/>
+                <StringItem index="7" value="Lainnya"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtIDPencakerView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel51">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Kewarganegaraan"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbKewarganegaraanView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="--- Pilih ---"/>
+                <StringItem index="1" value="WNI"/>
+                <StringItem index="2" value="WNA"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel52">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Status"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbStatusView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="--- Pilih ---"/>
+                <StringItem index="1" value="Belum Kawin"/>
+                <StringItem index="2" value="Kawin"/>
+                <StringItem index="3" value="Duda"/>
+                <StringItem index="4" value="Janda"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel53">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Pendidikan Terakhir"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbPendidikanView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="12">
+                <StringItem index="0" value="--- Pilih ---"/>
+                <StringItem index="1" value="SD"/>
+                <StringItem index="2" value="SMP"/>
+                <StringItem index="3" value="SMA"/>
+                <StringItem index="4" value="SMK"/>
+                <StringItem index="5" value="D1"/>
+                <StringItem index="6" value="D2"/>
+                <StringItem index="7" value="D3"/>
+                <StringItem index="8" value="D4"/>
+                <StringItem index="9" value="S1"/>
+                <StringItem index="10" value="S2"/>
+                <StringItem index="11" value="S3"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel54">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nama Sekolah / Universitas"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNamaSekolahView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel55">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Jurusan"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel56">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Form Input Data Pencari Kerja"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtJurusanView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNoKTPView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNoKTPViewActionPerformed"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNoKTPViewKeyPressed"/>
+            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNoKTPViewKeyReleased"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNoKTPViewKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel57">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Tahun Lulus"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel58">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="No. KTP"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtTahunLulusView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtTahunLulusViewKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel59">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nama"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNamaPencakerView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnUpdatePencakerView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Update"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUpdatePencakerViewActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="dtTglLahirView">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="panelViewID">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="323" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane1" min="-2" pref="415" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="btnUpdateViewID" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Component id="btnDeleteViewID" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="btnCancelViewID" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Component id="btnCloseViewID" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jLabel27" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="cbHakAksesViewID" min="-2" pref="176" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="txtIDView" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel23" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel24" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel25" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="txtPasswordViewID" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtUsernameViewID" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtNamaViewID" alignment="0" min="-2" pref="311" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="372" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="161" max="32767" attributes="0"/>
+                  <Component id="jLabel27" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtUsernameViewID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPasswordViewID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel25" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNamaViewID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel26" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbHakAksesViewID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtIDView" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnUpdateViewID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnDeleteViewID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnCancelViewID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnCloseViewID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="160" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="116" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="TblDataPengguna">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TblDataPenggunaMouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JComboBox" name="cbHakAksesViewID">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="--- Hak Akses ---"/>
+                <StringItem index="1" value="Admin"/>
+                <StringItem index="2" value="User"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtIDView">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel23">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Username"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel24">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Password"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel25">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nama"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel26">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Hak Akses"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtUsernameViewID">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPasswordViewID">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNamaViewID">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel27">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Form View &amp; Update Data ID"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnUpdateViewID">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Update"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUpdateViewIDActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnDeleteViewID">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Delete"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDeleteViewIDActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCancelViewID">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cancel"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCancelViewIDActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCloseViewID">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Close"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCloseViewIDActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
